@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "users": "Usuários",
+    "baseEnvelopes": "Base de Envelopes"
+  },
+  "auth": {
+    "signIn": "Entrar",
+    "email": "E-mail",
+    "password": "Senha",
+    "notAdmin": "Acesso restrito a administradores.",
+    "loginError": "E-mail ou senha inválidos."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalUsers": "Total de Usuários",
+    "activeUsers": "Usuários Ativos",
+    "newUsersMonth": "Novos (este mês)",
+    "totalTransactions": "Total de Transações",
+    "totalEnvelopes": "Total de Envelopes",
+    "totalProcessedIncomes": "Rendas Processadas",
+    "usersOverTime": "Novos usuários por mês",
+    "transactionsOverTime": "Transações por mês"
+  },
+  "users": {
+    "title": "Usuários",
+    "search": "Buscar por nome ou e-mail",
+    "status": "Status",
+    "all": "Todos",
+    "active": "Ativos",
+    "deleted": "Deletados",
+    "adminFilter": "Tipo",
+    "admins": "Admins",
+    "regular": "Regulares",
+    "name": "Nome",
+    "email": "E-mail",
+    "isAdmin": "Admin",
+    "isDeleted": "Status",
+    "emailVerified": "E-mail verificado",
+    "registrationComplete": "Cadastro completo",
+    "createdAt": "Criado em",
+    "actions": "Ações",
+    "view": "Ver detalhes",
+    "deactivate": "Desativar",
+    "reactivate": "Reativar",
+    "makeAdmin": "Tornar admin",
+    "removeAdmin": "Remover admin",
+    "delete": "Deletar permanentemente",
+    "updateSuccess": "Usuário atualizado com sucesso.",
+    "deleteSuccess": "Usuário deletado com sucesso.",
+    "deleteConfirm": "Tem certeza que deseja deletar permanentemente este usuário? Esta ação não pode ser desfeita.",
+    "deactivateConfirm": "Tem certeza que deseja desativar este usuário?",
+    "reactivateConfirm": "Tem certeza que deseja reativar este usuário?",
+    "tabs": {
+      "profile": "Perfil",
+      "envelopes": "Envelopes",
+      "summary": "Resumo"
+    },
+    "summary": {
+      "envelopes": "Envelopes",
+      "incomes": "Rendas",
+      "transactions": "Transações",
+      "processedIncomes": "Rendas Processadas"
+    }
+  },
+  "baseEnvelopes": {
+    "title": "Base de Envelopes",
+    "add": "Novo Envelope Base",
+    "name": "Nome",
+    "color": "Cor",
+    "order": "Ordem",
+    "actions": "Ações",
+    "edit": "Editar",
+    "delete": "Deletar",
+    "createSuccess": "Envelope base criado com sucesso.",
+    "updateSuccess": "Envelope base atualizado com sucesso.",
+    "deleteSuccess": "Envelope base deletado com sucesso.",
+    "deleteConfirm": "Tem certeza que deseja deletar este envelope base?",
+    "save": "Salvar",
+    "cancel": "Cancelar"
+  },
+  "common": {
+    "yes": "Sim",
+    "no": "Não",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "loading": "Carregando...",
+    "error": "Erro ao carregar dados.",
+    "logout": "Sair",
+    "active": "Ativo",
+    "inactive": "Inativo"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "dashboard": "Panel",
+    "users": "Usuarios",
+    "baseEnvelopes": "Sobres Base"
+  },
+  "auth": {
+    "signIn": "Iniciar sesión",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "notAdmin": "Acceso restringido a administradores.",
+    "loginError": "Correo electrónico o contraseña inválidos."
+  },
+  "dashboard": {
+    "title": "Panel",
+    "totalUsers": "Total de Usuarios",
+    "activeUsers": "Usuarios Activos",
+    "newUsersMonth": "Nuevos (este mes)",
+    "totalTransactions": "Total de Transacciones",
+    "totalEnvelopes": "Total de Sobres",
+    "totalProcessedIncomes": "Ingresos Procesados",
+    "usersOverTime": "Nuevos usuarios por mes",
+    "transactionsOverTime": "Transacciones por mes"
+  },
+  "users": {
+    "title": "Usuarios",
+    "search": "Buscar por nombre o correo",
+    "status": "Estado",
+    "all": "Todos",
+    "active": "Activos",
+    "deleted": "Eliminados",
+    "adminFilter": "Tipo",
+    "admins": "Admins",
+    "regular": "Regulares",
+    "name": "Nombre",
+    "email": "Correo",
+    "isAdmin": "Admin",
+    "isDeleted": "Estado",
+    "emailVerified": "Correo verificado",
+    "registrationComplete": "Registro completo",
+    "createdAt": "Creado el",
+    "actions": "Acciones",
+    "view": "Ver detalles",
+    "deactivate": "Desactivar",
+    "reactivate": "Reactivar",
+    "makeAdmin": "Hacer admin",
+    "removeAdmin": "Quitar admin",
+    "delete": "Eliminar permanentemente",
+    "updateSuccess": "Usuario actualizado con éxito.",
+    "deleteSuccess": "Usuario eliminado con éxito.",
+    "deleteConfirm": "¿Está seguro de que desea eliminar permanentemente este usuario? Esta acción no se puede deshacer.",
+    "deactivateConfirm": "¿Está seguro de que desea desactivar este usuario?",
+    "reactivateConfirm": "¿Está seguro de que desea reactivar este usuario?",
+    "tabs": {
+      "profile": "Perfil",
+      "envelopes": "Sobres",
+      "summary": "Resumen"
+    },
+    "summary": {
+      "envelopes": "Sobres",
+      "incomes": "Ingresos",
+      "transactions": "Transacciones",
+      "processedIncomes": "Ingresos Procesados"
+    }
+  },
+  "baseEnvelopes": {
+    "title": "Sobres Base",
+    "add": "Nuevo Sobre Base",
+    "name": "Nombre",
+    "color": "Color",
+    "order": "Orden",
+    "actions": "Acciones",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "createSuccess": "Sobre base creado con éxito.",
+    "updateSuccess": "Sobre base actualizado con éxito.",
+    "deleteSuccess": "Sobre base eliminado con éxito.",
+    "deleteConfirm": "¿Está seguro de que desea eliminar este sobre base?",
+    "save": "Guardar",
+    "cancel": "Cancelar"
+  },
+  "common": {
+    "yes": "Sí",
+    "no": "No",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "loading": "Cargando...",
+    "error": "Error al cargar datos.",
+    "logout": "Cerrar sesión",
+    "active": "Activo",
+    "inactive": "Inactivo"
+  }
+}

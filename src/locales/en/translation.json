@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "baseEnvelopes": "Base Envelopes"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "email": "Email",
+    "password": "Password",
+    "notAdmin": "Access restricted to administrators.",
+    "loginError": "Invalid email or password."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalUsers": "Total Users",
+    "activeUsers": "Active Users",
+    "newUsersMonth": "New (this month)",
+    "totalTransactions": "Total Transactions",
+    "totalEnvelopes": "Total Envelopes",
+    "totalProcessedIncomes": "Processed Incomes",
+    "usersOverTime": "New users per month",
+    "transactionsOverTime": "Transactions per month"
+  },
+  "users": {
+    "title": "Users",
+    "search": "Search by name or email",
+    "status": "Status",
+    "all": "All",
+    "active": "Active",
+    "deleted": "Deleted",
+    "adminFilter": "Type",
+    "admins": "Admins",
+    "regular": "Regular",
+    "name": "Name",
+    "email": "Email",
+    "isAdmin": "Admin",
+    "isDeleted": "Status",
+    "emailVerified": "Email verified",
+    "registrationComplete": "Registration complete",
+    "createdAt": "Created at",
+    "actions": "Actions",
+    "view": "View details",
+    "deactivate": "Deactivate",
+    "reactivate": "Reactivate",
+    "makeAdmin": "Make admin",
+    "removeAdmin": "Remove admin",
+    "delete": "Permanently delete",
+    "updateSuccess": "User updated successfully.",
+    "deleteSuccess": "User deleted successfully.",
+    "deleteConfirm": "Are you sure you want to permanently delete this user? This action cannot be undone.",
+    "deactivateConfirm": "Are you sure you want to deactivate this user?",
+    "reactivateConfirm": "Are you sure you want to reactivate this user?",
+    "tabs": {
+      "profile": "Profile",
+      "envelopes": "Envelopes",
+      "summary": "Summary"
+    },
+    "summary": {
+      "envelopes": "Envelopes",
+      "incomes": "Incomes",
+      "transactions": "Transactions",
+      "processedIncomes": "Processed Incomes"
+    }
+  },
+  "baseEnvelopes": {
+    "title": "Base Envelopes",
+    "add": "New Base Envelope",
+    "name": "Name",
+    "color": "Color",
+    "order": "Order",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete",
+    "createSuccess": "Base envelope created successfully.",
+    "updateSuccess": "Base envelope updated successfully.",
+    "deleteSuccess": "Base envelope deleted successfully.",
+    "deleteConfirm": "Are you sure you want to delete this base envelope?",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "error": "Error loading data.",
+    "logout": "Logout",
+    "active": "Active",
+    "inactive": "Inactive"
+  }
+}
