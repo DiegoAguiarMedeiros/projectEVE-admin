@@ -25,6 +25,7 @@ export default function BaseEnvelopeForm({ open, onClose, editing }: BaseEnvelop
   const [name, setName] = useState('')
   const [color, setColor] = useState('#1976d2')
   const [order, setOrder] = useState(1)
+  const [percentage, setPercentage] = useState(0)
 
   const { mutate: create, isPending: creating } = useCreateBaseEnvelope()
   const { mutate: update, isPending: updating } = useUpdateBaseEnvelope()
@@ -34,10 +35,12 @@ export default function BaseEnvelopeForm({ open, onClose, editing }: BaseEnvelop
       setName(editing.name)
       setColor(editing.color)
       setOrder(editing.order)
+      setPercentage(editing.percentage)
     } else {
       setName('')
       setColor('#1976d2')
       setOrder(1)
+      setPercentage(0)
     }
   }, [editing, open])
 
@@ -47,11 +50,11 @@ export default function BaseEnvelopeForm({ open, onClose, editing }: BaseEnvelop
     e.preventDefault()
     if (editing) {
       update(
-        { id: editing.id, data: { name, color, order } },
+        { id: editing.id, data: { name, color, order, percentage } },
         { onSuccess: onClose }
       )
     } else {
-      create({ name, color, order }, { onSuccess: onClose })
+      create({ name, color, order, percentage }, { onSuccess: onClose })
     }
   }
 
@@ -105,6 +108,15 @@ export default function BaseEnvelopeForm({ open, onClose, editing }: BaseEnvelop
             value={order}
             onChange={(e) => setOrder(parseInt(e.target.value, 10))}
             inputProps={{ min: 1 }}
+            required
+            fullWidth
+          />
+          <TextField
+            label={t('baseEnvelopes.percentage')}
+            type="number"
+            value={percentage}
+            onChange={(e) => setPercentage(Number(e.target.value))}
+            inputProps={{ min: 0, max: 100 }}
             required
             fullWidth
           />

@@ -69,6 +69,7 @@
     "name": "Name",
     "color": "Color",
     "order": "Order",
+    "percentage": "Default Percentage (%)",
     "actions": "Actions",
     "edit": "Edit",
     "delete": "Delete",

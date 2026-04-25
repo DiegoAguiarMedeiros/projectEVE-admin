@@ -52,6 +52,7 @@ export default function BaseEnvelopesTable({
                 <TableCell>{t('baseEnvelopes.order')}</TableCell>
                 <TableCell>{t('baseEnvelopes.name')}</TableCell>
                 <TableCell>{t('baseEnvelopes.color')}</TableCell>
+                <TableCell>{t('baseEnvelopes.percentage')}</TableCell>
                 <TableCell align="center">{t('baseEnvelopes.actions')}</TableCell>
               </TableRow>
             </TableHead>
@@ -74,6 +75,7 @@ export default function BaseEnvelopesTable({
                       {env.color}
                     </Box>
                   </TableCell>
+                  <TableCell>{env.percentage}%</TableCell>
                   <TableCell align="center">
                     <Tooltip title={t('baseEnvelopes.edit')}>
                       <IconButton size="small" onClick={() => onEdit(env)}>
