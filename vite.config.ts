@@ -34,12 +34,12 @@ export default defineConfig(({ mode }) => {
         },
       ],
     },
-    server: { port: PORT, host: HOST, allowedHosts: "all" },
+    server: { port: PORT, host: HOST, allowedHosts: ["projecteve-admin.onrender.com"] },
     optimizeDeps: { force: true },
     preview: {
       port: PORT,
       host: HOST,
-      allowedHosts: ["https://projecteve-admin.onrender.com"],
+      allowedHosts: ["projecteve-admin.onrender.com"],
     },
   };
 });
