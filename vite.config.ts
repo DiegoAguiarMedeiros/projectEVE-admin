@@ -7,7 +7,7 @@ import react from "@vitejs/plugin-react-swc";
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
-
+  console.log("ENV:", env.VITE_API_URL);
   const PORT = Number(process.env.PORT || env.PORT) || 3039;
   const HOST = process.env.HOST || env.HOST || "0.0.0.0";
 
