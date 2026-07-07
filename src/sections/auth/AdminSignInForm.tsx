@@ -29,13 +29,14 @@ export default function AdminSignInForm() {
     e.preventDefault()
     setError(null)
     setLoading(true)
-
+    console.log('VITE_API_URL:', import.meta.env.VITE_API_URL);
+    console.log('Axios baseURL:', adminApiClient.defaults.baseURL);
     try {
       await adminApiClient.post('/auth/login', { email, password })
       const meRes = await adminApiClient.get('/users/me')
 
       if (!meRes.data.isAdminUser) {
-        await adminApiClient.post('/auth/logout').catch(() => {})
+        await adminApiClient.post('/auth/logout').catch(() => { })
         setError(t('auth.notAdmin'))
         setLoading(false)
         return
